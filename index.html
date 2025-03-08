@@ -156,14 +156,15 @@ I specialize in creating responsive, user-friendly websites. Proficient in HTML,
             <a href="https://github.com/YashminUnnisha64" class="icon"><i class="ri-Github-fill"></i></a>
           </div>
         </div>
-        <form  class="footer__form" action="https://formspree.io/f/xpwazvyk" method="POST">
-          <input type="text" placeholder="Your Name" />
-          <input type="text" placeholder="Your Email Address" />
-          <input type="text" placeholder="Your Phone Number" />
+        <form  class="footer__form" method="POST">
+          <input type="text" id="name" placeholder="Your Name" />
+          <input type="text" id="email" placeholder="Your Email Address" />
+          <input type="text" id="yourPhoneNumber" placeholder="Your Phone Number" />
           <textarea cols="30" rows="10" placeholder="Your Idea"></textarea>
-          <button type="submit" class="btn">Send Message</button>
+          <button type="submit" id="sendMessage" class="btn">Send Message</button>
         </form>
       </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
   </body>
 </html>
